@@ -32,7 +32,7 @@
     }
 })(function () {
   //Default config/variables
-  var VERSION = '2.9.4';
+  var VERSION = '2.9.5';
 
   /**
    * IntroJs main class
@@ -102,8 +102,6 @@
       hintAnimation: true,
       /* additional classes to put on the buttons */
       buttonClass: "introjs-button",
-      /* value decreases parent.scrollTop */
-      offsetTop: 100
     };
   }
 
@@ -2280,7 +2278,7 @@
   * @return Null
   */
   function _scrollParentToElement (parent, element) {
-    parent.scrollTop = element.offsetTop - parent.offsetTop - this._options.offsetTop;
+    parent.scrollTop = element.offsetTop - parent.offsetTop - 100;
   }
 
   /**
