@@ -2280,7 +2280,7 @@
   * @return Null
   */
   function _scrollParentToElement (parent, element) {
-    parent.scrollTop = element.offsetTop - parent.offsetTop;
+    parent.scrollTop = element.offsetTop - parent.offsetTop - this._options.offsetTop;
   }
 
   /**
