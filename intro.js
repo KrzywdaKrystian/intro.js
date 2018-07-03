@@ -32,7 +32,7 @@
     }
 })(function () {
   //Default config/variables
-  var VERSION = '2.9.3';
+  var VERSION = '2.9.4';
 
   /**
    * IntroJs main class
