@@ -101,7 +101,9 @@
       /* Adding animation to hints? */
       hintAnimation: true,
       /* additional classes to put on the buttons */
-      buttonClass: "introjs-button"
+      buttonClass: "introjs-button",
+      /* value decreases parent.scrollTop */
+      offsetTop: 100
     };
   }
 
